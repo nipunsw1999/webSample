@@ -1,0 +1,41 @@
+body{
+    background-color: black;
+}
+*{
+    color: aliceblue;
+}
+/*
+    Universal 
+    *{
+        bla bla bla
+    }
+*/
+.exClass{
+    background-color: blue;
+    text-align: center;
+    width: 75%;
+    margin: auto;
+    padding: 0.005%;
+
+}
+#asi{
+    background-color: rgb(175, 13, 13);
+    text-align: center;
+    width: 75%;
+    margin: auto;
+    padding: 0.005%;
+    font-size: 130%;
+}
+h1{
+    color: rgb(16, 199, 199);
+    transition: color 0.3s;
+}
+h1:hover{
+    color:rgb(209, 17, 168);
+    cursor: pointer;
+    transition: color 0.1s;
+}
+
+h1:active{
+    color: rgb(166, 255, 0);
+}
